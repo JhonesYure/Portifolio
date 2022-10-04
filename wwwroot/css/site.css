@@ -1,0 +1,182 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+@media (min-width: 576px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+body
+{
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e1e;
+  
+}
+main
+{
+  display: block;
+  
+}
+footer
+{
+  background-color: #343434;
+}
+div
+{
+  overflow: hidden;
+}
+
+
+
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+
+
+/*CABEÇALHO*/
+header 
+{
+  background-color:white;
+  width: 100%;
+  height: 14%;
+  position: fixed;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.logo
+{
+  width: 140px;
+  height: 70px;
+  float: left;
+  margin-left: 0%;
+}
+.info
+{
+  height:10px;
+  width: 0%;
+  margin-left: 20%;
+}
+.info :hover
+{
+    color: #224552;
+    transition: 0.3s all;
+}
+.txtmenu
+{
+  font-family: 'IM Fell French Canon SC', serif;
+  color: #1e1e1e;
+  font-size: 35px;
+  margin-left: 5%;
+}
+.txtinfo
+{
+  font-family: 'IM Fell French Canon SC', serif;
+  color: #1e1e1e;
+  font-size: 35px;
+  margin-left: 0%;
+}
+
+/*INICIO PÁGINA*/
+.fundo
+{
+    background-image: url('/img/fundo.png');
+    height: 900px;
+}
+.texto
+{
+  color: white;
+  margin-top: 200px;
+  font-family: 'IM Fell French Canon SC', serif;
+  margin-left: 20%;
+  font-size: 50px;
+}
+.texto::after
+{
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
+.foto
+{
+  border-radius: 250px 250px 250px 250px;
+  margin-top: 250px;
+  margin-left: 20%;
+  height: 300px;
+}
+.direitos
+{
+  text-align: center;
+}

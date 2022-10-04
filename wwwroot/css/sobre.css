@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+
+.titulo
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'IM Fell French Canon SC', serif;
+}
+.descricao
+{
+    color: white;
+    font-family: 'IM Fell French Canon SC', serif;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.escritorio
+{
+    margin-left: 20%;
+}
