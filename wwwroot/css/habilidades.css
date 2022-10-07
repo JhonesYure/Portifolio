@@ -1,0 +1,74 @@
+#habilidades
+{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.skills
+{
+    width: 200px;
+   
+}
+.borda
+{
+    background-color: #ffffff;
+    height: 200px;
+    margin-left: 20%;
+    border-radius: 20px;
+    box-shadow:#224552;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-color: black;
+    margin-top: 5%;
+    
+}
+#mostrar
+{
+    display:none;
+    color: white;
+    margin-left: 20%;
+}
+#mostrar2
+{
+    display:none;
+    color: white;
+    margin-left: 20%;
+}
+#mostrar3
+{
+    display:none;
+    color: white;
+    margin-left: 20%;
+}
+#mostrar4
+{
+    display:none;
+    color: white;
+    margin-left: 20%;
+}
+#mostrar5
+{
+    display:none;
+    color: white;
+    margin-left: 20%;
+}
+#mostrar6
+{
+    display:none;
+    color: white;
+    margin-left: 20%;
+}
+#mostrar7
+{
+    display:none;
+    color: white;
+    margin-left: 20%;
+}
+#mostrar8
+{
+    display:none;
+    color: white;
+    margin-left: 20%;
+}

@@ -1,0 +1,166 @@
+#projetos
+{
+   
+    display: flex;
+    justify-content: center;
+}
+.pro2 {
+    background-color: #ffffff;
+    height: 180px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow:#224552;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-color: black;
+    margin-top: 5%;
+    margin-left: 30%; 
+}
+
+.pro2 div p {
+    font-size: 20px;
+    color: #fffffd;
+    align-items: center;
+}
+
+
+.pro2:hover {
+    letter-spacing: 10px;
+}
+
+.pro2 div {
+    background-color: #fa0000;
+    width: 100%;
+    text-align: center;
+    padding: 0% 0;
+    transform: rotate(-5deg);
+    
+}
+.gitbutton
+{
+  border-radius: 15px;
+  height: 60px;
+  width: 250px;
+  background-color: white;
+  margin-top: 60px;
+  margin-left: 35%;
+  display: flex;
+  justify-content: center;
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.escondido 
+{
+    opacity: 0;
+    
+    transition: 1000ms;
+}
+.github-link {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin-left: 100px;
+}
+button 
+{
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: black;
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+button:hover {
+    background-color: #4e4848;
+}
+.linkgit
+{
+    color: white;
+}
+.imgithub
+{
+    width: 50px;
+    height: 50px;
+}
+.ops
+{
+    color: wheat;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin-left: 100px;
+}

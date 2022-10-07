@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+#contato
+{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+#maisinfo
+{
+    display: flex;
+    justify-content: center;
+   
+    overflow: hidden;
+}
+
+.txtform
+{
+    font-family: 'IM Fell French Canon SC', serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtbox
+{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 41%;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtmensagem
+{
+    font-family: 'IM Fell French Canon SC', serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-left: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxmensagem
+{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 41%;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txbutton
+{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    margin-left: 45%;
+}
+.aviso
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+
+
+.env:hover {
+    transform: translateY(-3px);
+}
+
+
+/*FOOTER*/
+.titulo2
+{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'IM Fell French Canon SC', serif;
+}
+.maisinfo
+{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin-left: 100px;
+    color: white;
+    font-family: 'IM Fell French Canon SC', serif;
+}
+.redes
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+.txtredes
+{
+    color: white;
+    font-family: 'IM Fell French Canon SC', serif;
+    margin-left: 50%;
+    margin-top: 30px;
+}

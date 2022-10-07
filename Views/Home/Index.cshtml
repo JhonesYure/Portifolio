@@ -1,1 +1,303 @@
-﻿
+﻿@model Contato
+@{
+    Layout = "_Layout";
+}
+
+<!--INICIO-->
+        <section id="inicio">
+            <div class="container-fluid fundo">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="texto">
+                            Olá, é um prazer! 
+                            Sou Jhones Yure
+                            Desenvolvedor FullStack.
+                        </h1>             
+                    </div>
+
+                    <div class="col-md-6">
+                        <img class="foto" src="~/img/perfil.jpg">
+                    </div><!--Foto-->
+                    
+                </div><!--Row-->
+            </div><!--Container-->
+        </section>
+        <br class="linha">
+        <!--SOBRE MIM-->
+        <section id="sobre">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="titulo">
+                            Sobre mim
+                        </h1>
+                    </div>
+
+                    <br>
+
+                    <div class="col-md-3">
+                        <p class="descricao">
+                            Desenvolvedor Web em desenvolvimento, cursando técnico em desenvolvimento web/mobile e iniciando guaduação em Ciência da Computação na UniRitter. Também modelador 4D para aplicações em web ou games. Designer UI & UX, buscando conhecimento próprio em Design Mottion.
+                            Com um grande conhecimento na área de Hardware e Software, sempre procurando a melhor forma de aprender e evoluir durante a trajetoria acadêmica e profissional.
+                        </p>
+                    </div>
+
+                    <div class="col-md-9">
+                        <img class="escritorio" src="~/img/escritorio.png">
+                    </div>
+                </div><!--Row-->
+            </div><!--container-->
+        </section>
+        <br>
+        <!--PROJETOS-->
+        <section id="projetos">
+            <div class="container-fluid">
+                <div class="row projeto-itens">
+                    <div class="col-md-12">
+                        <h1 class="titulo">
+                            Projetos
+                        </h1>
+                    </div>
+                    <br>
+   
+                        <div class="col-md-4 over">
+                            <div class="pro2 btn btn">
+                                <p>
+                                    Em Breve
+                                </p>
+                            </div>
+                        </div> 
+
+                        <div class="col-md-4 over">
+                            <div class="pro2 btn btn">
+                                <p>
+                                    Em Breve
+                                </p>
+                            </div>
+                        </div> 
+
+                        <div class="col-md-4 over">
+                            <div class="pro2 btn btn">
+                                <p>
+                                    Em Breve
+                                </p>
+                            </div>
+                        </div> 
+
+                        <br>
+                        
+                       
+                        <div class="col-md-12" id="span">
+                            <p class="ops">
+                                Ops! Não temos mais projetos para mostrar!
+                            </p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="github-link">
+                                <button  id="botaomais">Ver mais</button>
+                                        <a href="https://github.com/JhonesYure" target="_blank" class="linkgit">
+                                        <img src="~/img/github.png"class="imgithub">
+                                        Repositórios no github
+                                        </a>
+                            </div>
+                        </div>
+                       
+                    
+                </div><!--row-->
+            </div><!--container-->
+        </section>
+        <!--HABILIDADES-->
+        <section id="habilidades">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="titulo">
+                            Habilidades
+                        </h1>
+                    </div>
+                    <br>
+                    <div class="col-md-3" id="html">
+                        <img class="skills borda  btn btn" src="~/img/html.png">
+                        <div id="mostrar">
+                            <p><strong>HTML</strong></p>
+                            <br>
+                            <p>É uma linguagem de marcação para construções de páginas web</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="css">
+                        <img class="skills borda  btn btn" src="~/img/css.png">
+                        <div id="mostrar2">
+                            <p><strong>CSS</strong></p>
+                            <br>
+                            <p>Estilização de paginas web. Com efeitos de ransição, imagem, imagem de fundo/background e outros.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="js">
+                        <img class="skills borda  btn btn" src="~/img/javascript.png">
+                        <div id="mostrar3">
+                            <p><strong>JavaScript</strong></p>
+                            <br>
+                            <p>É uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="cs">
+                        <img class="skills borda  btn btn" src="~/img/csharp.png">
+                        <div id="mostrar4">
+                            <p><strong>C Sharp (C#)</strong></p>
+                            <br>
+                            <p>É uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. </p>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="col-md-3" id="react">
+                        <img class="skills borda  btn btn" src="~/img/react.png">
+                        <div id="mostrar5">
+                            <p><strong>React-Native</strong></p>
+                            <br>
+                            <p>É uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS de forma nativa. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="node">
+                        <img class="skills borda  btn btn" src="~/img/node.png">
+                        <div id="mostrar6">
+                            <p><strong>Node-JS</strong></p>
+                            <br>
+                            <p>É um software de código aberto, multiplataforma, baseado no interpretador V8 do Google</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="bootstrap">
+                        <img class="skills borda  btn btn" src="~/img/boot.png">
+                        <div id="mostrar7">
+                            <p><strong>Bootstrap</strong></p>
+                            <br>
+                            <p>É um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="sql">
+                        <img class="skills borda  btn btn" src="~/img/sql.png">
+                        <div id="mostrar8">
+                            <p><strong>MySql</strong></p>
+                            <br>
+                            <p>É um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.</p>
+                        </div>
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
+        </section><!--HABILIDADES-->
+            <br>
+        <!--CONTATO-->
+        <section id="contato">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="titulo">
+                            Contato
+                        </h1>
+                    </div>
+                    <br>
+                    <div class="col-md-12" id="contatos">
+                        <p class="text-danger">@ViewData["mensagem"]</p>
+                        <form asp-action="Contato" method="POST" id="frmcadastro">
+                            <div class="form-group row">
+                                <label asp-for="Nome" class="txtform">Nome:</label>
+                                <input asp-for="Nome" type="text" class="txtbox" required id="nome">
+                            </div><!--nome-->
+                            <div class="form-group row">
+                                <label asp-for="Email" class="txtform">E-mail:</label>
+                                <input asp-for="Email" type="email" class="txtbox" required id="email">
+                            </div><!--email-->
+                            <div class="form-group row">
+                                <label asp-for="Mensagem" class="txtmensagem">Mensagem:</label>
+                                <textarea asp-for="Mensagem" class="boxmensagem" required id="mensagem"></textarea>
+                            </div><!--mensagem-->
+                            
+
+                            <div class="form-group row">
+                                <div class="col-8"> @ViewBag.msg</div>
+                                <input type="submit" value="Enviar" class="txbutton env" id="btnSubmit"/>
+                                
+
+                            </div>
+                        </form><!--formulario-->
+                    </div>
+
+                </div><!--row-->
+            </div><!--container-->
+        </section><!--contato-->
+
+<footer>
+<section id="maisinfo">
+    <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="titulo2">
+                           Contato
+                    </h3>
+                    <p class="maisinfo">E-mail: devjhonesyure@outlook.com</p>
+                    <p class="maisinfo">Tel: (51)  9.99411-9063</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="titulo2">
+                           Redes Sociais
+                    </h3>
+                    <div class="col-md-12">
+                        <table>
+                           <tr>
+                                <td>
+                                    <a href="https://www.linkedin.com/in/jhones-bomfim-10a5021a1/" target="_blank">
+                                        <img src="~/img/linkdin.png" class="redes">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://www.linkedin.com/in/jhones-bomfim-10a5021a1/" target="_blank">
+                                        <p class="txtredes">Linkdin</p>
+                                    </a>
+                                </td>
+                           </tr>
+                           <tr>
+                                <td>
+                                        <a href="https://www.instagram.com/jhonesyure/" target="_blank">
+                                            <img src="~/img/insta.png" class="redes">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.instagram.com/jhonesyure/" target="_blank">
+                                            <p class="txtredes">Instagram</p>
+                                        </a>
+                                    </td>
+                           </tr>
+                           <tr>
+                                <td>
+                                        <a href="https://www.facebook.com/trinindad.bomfim/" target="_blank">
+                                            <img src="~/img/face.png" class="redes">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.facebook.com/trinindad.bomfim/" target="_blank">
+                                            <p class="txtredes">Facebook</p>
+                                        </a>
+                                    </td>
+                           </tr>
+                           <tr>
+                                <td>
+                                        <a href="">
+                                            <img src="~/img/twitter.png" class="redes">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="">
+                                            <p class="txtredes">Twitter</p>
+                                        </a>
+                                    </td>
+                           </tr>
+                        </table>
+                    </div>
+                </div>
+            </div><!--row-->
+    </div><!--container-->
+</section>
+</footer>

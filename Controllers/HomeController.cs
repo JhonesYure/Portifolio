@@ -22,6 +22,24 @@ namespace PortifolioPro.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult Contato (Contato contato)
+        {
+            try
+            {
+                DatabaseService dbs = new DatabaseService();
+                dbs.CadastroContato(contato);
+
+                return Json(new { status="ok", mensagem="Dados enviado!" });
+            }
+            catch (Exception e)
+            {
+                _logger.LogError("Erro ao gravar no banco de dados"+ e.Message);
+                //ViewData["mensagem"] = "Erro! Tente novamente mais tarde";
+
+                 return Json(new {status="ERRO", mensagem="falha no envio"});
+            }
+        }
 
         public IActionResult Privacy()
         {
